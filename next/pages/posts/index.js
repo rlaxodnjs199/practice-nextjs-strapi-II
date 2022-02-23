@@ -4,7 +4,7 @@ import PostPreview from '../../components/PostPreview';
 function Post({ posts }) {
   return (
     <>
-      {posts.map((post) => (
+      {posts.map(post => (
         <PostPreview post={post} />
       ))}
     </>

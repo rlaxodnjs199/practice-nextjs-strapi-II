@@ -12,7 +12,7 @@ function HomeLatestPosts({ posts }) {
     <>
       {' '}
       <h2>Latest Posts</h2>
-      {latestPosts.map((post) => (
+      {latestPosts.map(post => (
         <PostPreview post={post} key={post.id} />
       ))}
     </>
